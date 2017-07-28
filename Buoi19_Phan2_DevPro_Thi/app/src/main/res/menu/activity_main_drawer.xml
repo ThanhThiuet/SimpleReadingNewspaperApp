@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_truyenMa"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Truyện ma" />
+        <item
+            android:id="@+id/nav_truyenThieuNhi"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Truyện thiếu nhi" />
+        <item
+            android:id="@+id/nav_truyenKiemHiep"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Truyện kiếm hiệp" />
+    </group>
+
+    <item android:title="Thiết lập">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Chia sẻ" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gửi phản hồi" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Đánh giá" />
+        </menu>
+    </item>
+
+</menu>
